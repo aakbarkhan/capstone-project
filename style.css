@@ -1,0 +1,134 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+body {
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#logo {
+    display: inline;
+}
+
+
+.top {
+    background-color: #272a31;
+    width: 100%;
+}
+
+.icons-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 10%;
+    padding: 0%;
+    cursor: pointer;  
+}
+
+.top-icons {
+    display: inline;
+    margin-left: 1%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.nav-links,
+.nav {
+    display: flex;
+}
+
+.nav-links {
+    margin: 0 10%;
+    padding: 0%;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    color: #272a31;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav {
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-link {
+    margin-left: 7%;
+}
+
+.nav-link:hover {
+    color: #ec5242;
+}
+ 
+.logo:hover {
+    background-color: #ec5242;
+}
+
+.nav-link:last-child {
+    border: 2px solid #ec5242;
+    padding: 0.7%;
+    color: #ec5242;
+}
+
+.welcome {
+    background-color: #d3d3d3;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.welcome-container {
+    margin: 0 10%;
+    color: #ec5242;
+}
+
+.hero {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.summit {
+    margin: 0;
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.discription {
+    border: 1px solid white;
+    width: fit-content;
+    color: #575657;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    line-height: 2;
+    padding: 1%;
+}
+
+.place-date {
+    margin: 0 10%;
+}
+
+.date {
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.place {
+    font-size: 20px;
+}
+
+.date,
+.place {
+    color: #575657;
+    font-family: 'Lato', sans-serif;
+}

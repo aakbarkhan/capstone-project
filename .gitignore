@@ -1,0 +1,6 @@
+node_modules
+<<<<<<< HEAD
+=======
+.hintrc
+.stylelintrc.json
+>>>>>>> f61a7059c9fb4b937619480ea936d9b1e094ba19
