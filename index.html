@@ -16,30 +16,33 @@
 </head>
 <body>
     <div>
-    <nav class="top">
-        <ul class="icons-top">
-            <li class="top-icons"><i class="fab fa-facebook-f"></i></li>
-            <li class="top-icons"><i class="fab fa-twitter"></i></li>
-            <li class="top-icons">English</li>
-            <li class="top-icons">MyPage</li>
-            <li class="top-icons">Logout</li>
-        </ul>
-    </nav>
-    <nav class="nav-links">
-        <div >
-            <a  class="logo" href="">
-                <img src="./logoSummit.png" alt="">
-            </a>
-        </div>
-        <ul class="nav">
-            <li class="nav-link">About</li>
-            <li class="nav-link">Program</li>
-            <li class="nav-link">Join</li>
-            <li class="nav-link">Sponsor</li>
-            <li class="nav-link">News</li>
-            <li class="nav-link">GT Campaing</li>
-        </ul>
-    </nav>
+        <header>
+
+            <nav class="top">
+                <ul class="icons-top">
+                    <li class="top-icons"><i class="fab fa-facebook-f"></i></li>
+                    <li class="top-icons"><i class="fab fa-twitter"></i></li>
+                    <li class="top-icons">English</li>
+                    <li class="top-icons">MyPage</li>
+                    <li class="top-icons">Logout</li>
+                </ul>
+            </nav>
+            <nav class="nav-links">
+                <div >
+                    <a  class="logo" href="">
+                        <img src="./logoSummit.png" alt="">
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li class="nav-link">About</li>
+                    <li class="nav-link">Program</li>
+                    <li class="nav-link">Join</li>
+                    <li class="nav-link">Sponsor</li>
+                    <li class="nav-link">News</li>
+                    <li class="nav-link">GT Campaing</li>
+                </ul>
+            </nav>
+        </header>
     <section class="welcome">
         <div class="welcome-container">
             <h2 class="hero">"Hello! Sharing world"</h2>
@@ -54,21 +57,69 @@
 
     </section>
     <section class="main">
-        <div>
+        <div class="main-heading">
             <h2>Main Program</h2>
+            <hr class="line">
         </div>
-        <article>
-            <a href="">
-                <img src="https://img.icons8.com/ios/50/000000/podium-with-speaker.png" alt="lecture" />
-            </a>
-            <h3>Lecture</h3>
-            <p>Listen to the speakers for various countries about the messages  of sharing and opening.</p>
+        <div  class="card">
+            <article>
+                <a class="icons" href="">
+                    <i class="fas fa-users"></i>
+                </a>
+                <h3 class="heading">Groups</h3>
+                <p>Listen to the speakers for various countries about the messages  of sharing and opening.</p>
+    
+            </article>
+            <article>
+                <a class="icons" href="">
+                    <i class="fas fa-network-wired"></i>
+                </a>
+                <h3 class="heading">Networking</h3>
+                <p>Brings together the people and companies redifining the global tech industry.</p>
+    
+            </article>
+            <article>
+                <a class="icons" href="">
+                    <i class="fas fa-magnet"></i>
+                </a>
+                <h3 class="heading">Lead Generation</h3>
+                <p>We welcome the people who are tackling the big challenges facing industry today.</p>
+    
+            </article>
+            <article>
+                <a class="icons" href="">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </a>
+                <h3 class="heading">Development</h3>
+                <p>“attracts a diverse list of world-class speakers and facilitates content that inspires and empowers attendees.</p>
+    
+            </article>
+            <article>
+                <a class="icons" href="">
+                    <i class="fas fa-laptop-house"></i>
+                </a>
+                <h3 class="heading">Workshop</h3>
+                <p>Try creting your own work using open source licence rather then just watching at it.</p>
+    
+            </article>
 
+            
+        </div>
+        <p class="all-list">SEE THE WHOLE PROGRAME</p>
+    </section>
 
-        </article>
+    <section class="presenters">
+        <div class="speaker-heading">
+            <h3 class="speaker-title"> Featured Speakers</h3>
+            <hr class="line">
+        </div>
+        <div id="presenters-card">
+            
+        </div>
 
     </section>
 </div>
+<script src="./script.js"></script>
     
 </body>
 </html>
