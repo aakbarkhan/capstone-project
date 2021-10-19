@@ -42,14 +42,12 @@ const data = [
     description: 'Jack Patrick Dorsey is an American billionaire technology entrepreneur and philanthropist who is the co-founder and CEO of Twitter, and the founder and CEO of Square, a financial payments company.',
     image: './jack.png',
     imageAlt: 'Jack-Dorsey',
-  }
+  },
 ];
 
-
-for ( let i = 0; i < data.length; i++) {
-    const card = data[i];
-    console.log(card)
-    presenterCard.innerHTML += `
+for (let i = 0; i < data.length; i = 1 + i) {
+  const card = data[i];
+  presenterCard.innerHTML += `
     <div class='speaker-card'>
     <div class="img-wrapper">
     <img class='${card.imageAlt}' src="${card.image}" alt="${card.imageAlt}">
@@ -63,4 +61,3 @@ for ( let i = 0; i < data.length; i++) {
     </div>
     `;
 }
-
