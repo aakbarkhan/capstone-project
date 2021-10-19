@@ -7,7 +7,6 @@ body {
 }
 
 header {
-  position: fixed;
   width: 100%;
 }
 
@@ -85,7 +84,7 @@ ul {
 .welcome {
   background-color: #d3d3d3;
   padding-top: 10%;
-  padding-bottom: 10%;
+  padding-bottom: 0;
 }
 
 .welcome-container {
@@ -199,6 +198,7 @@ article:hover {
 
 .presenters {
   padding: 5% 0;
+  padding: 5% 0 0 0;
 }
 
 .presenters,
@@ -210,6 +210,244 @@ article:hover {
   text-align: center;
 }
 
+.speaker-title,
+.name,
+.post,
+.partner {
+  color: #3c3e47;
+  font-family: 'Lato', sans-serif;
+}
+
 .all-list:hover {
   color: red;
+}
+
+#presenters-card {
+  display: grid;
+  margin: 0 10%;
+  grid-template-columns: 49% 49%;
+  padding: 5% 0;
+  column-gap: 2%;
+}
+
+.speaker-card {
+  display: flex;
+  gap: 7%;
+  background-image: url(./square.png);
+  background-repeat: no-repeat;
+  background-size: 61px 61px;
+  margin-bottom: 8%;
+}
+
+.Elon-musk,
+.Bill-Gates,
+.Peter-Thiel,
+.Sunder-Pichai,
+.Jeff-Bezos,
+.Jack-Dorsey {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  right: -10px;
+  top: 12px;
+}
+
+.img-wrapper img {
+  width: 160px;
+  height: 89%;
+}
+
+.name {
+  margin: 0;
+}
+
+.post {
+  color: #ec5242;
+  margin: 0;
+}
+
+.line-hr {
+  border: 1px solid #3c3e47;
+  width: 10px;
+  text-align: left;
+  margin-left: 0;
+}
+
+.partner > .partner-title {
+  text-align: center;
+  margin: 0;
+  font-size: 25px;
+  padding-top: 1.8%;
+}
+
+.partner {
+  color: #d3d3d3;
+  background: #272a31;
+}
+
+.partner-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3% 12%;
+}
+
+.first,
+.third {
+  font-weight: bolder;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 30px;
+}
+
+.second {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+}
+
+.list-items {
+  color: #d3d3d3;
+}
+
+.fourth,
+.fifth {
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+}
+
+.last {
+  width: 2%;
+}
+
+footer {
+  display: flex;
+  margin: 0 10%;
+  align-items: center;
+  padding: 3% 0;
+}
+
+.footer-img {
+  padding-left: 2%;
+}
+
+.footer-note {
+  padding-left: 8%;
+  font-family: 'Lato', sans-serif;
+}
+
+/* about */
+.about {
+  text-align: center;
+}
+
+.about-page {
+  background-color: white;
+  border: 0.1em solid #d3d3d3;
+  font-family: 'Lato', sans-serif;
+  margin: 0 16%;
+  padding: 1% 3%;
+  text-align: center;
+}
+
+.email {
+  margin: 0 16%;
+  text-align: center;
+  padding: 4% 0;
+}
+
+b {
+  text-decoration: underline;
+}
+
+.prize {
+  background-color: #fefeff;
+  border: 1px solid #d3d3d3;
+}
+
+.logo-prize {
+  margin: 0 16%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  padding: 4% 0;
+}
+
+.logo-info {
+  font-size: 20px;
+  color: #6c6d6d;
+}
+
+.logo-disc {
+  padding: 2% 0;
+}
+
+.log-border img {
+  box-shadow: 0 0 1px black;
+  width: 50%;
+}
+
+.past-summit {
+  text-align: center;
+  background-color: #fefeff;
+}
+
+.past {
+  margin: 0;
+  padding-top: 4%;
+}
+
+.past-img {
+  display: flex;
+  justify-content: center;
+}
+
+.past1,
+.past2 {
+  width: 400px;
+  margin: 2%  1%;
+}
+
+.past1 img {
+  width: 100%;
+  height: 200px;
+}
+
+.past2 img {
+  width: 100%;
+  height: 200px;
+}
+
+.past-2017 {
+  position: relative;
+  top: -50%;
+  color: white;
+  padding: 2%;
+  font-family: 'Lato', sans-serif;
+}
+
+.year {
+  margin: 0;
+  font-family: 'COCOGOOSE', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.year-dis {
+  margin: 0;
+  padding: 0 3%;
+}
+
+.saturate {
+  filter: brightness(50%);
+}
+
+.about-footer {
+  background-color: #2e2f2f;
+  color: white;
+  margin: 0;
+  padding: 3% 15%;
+}
+
+.about-footer img {
+  filter: invert(100%);
+  padding: 0;
+  border-radius: 50px; 
 }
