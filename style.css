@@ -72,6 +72,11 @@ ul {
   display: none;
 }
 
+.fas {
+  font-size: 25px;
+  padding-top: 16px;
+}
+
 .icons > .fas {
   color: white;
 }
@@ -196,11 +201,6 @@ li > a:hover {
 
 .heading {
   color: #ec5242;
-}
-
-.fas {
-  font-size: 25px;
-  padding-top: 16px;
 }
 
 .icons {
