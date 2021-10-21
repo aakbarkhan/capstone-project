@@ -198,13 +198,13 @@ li > a:hover {
   color: #ec5242;
 }
 
-.icons {
-  color: #ec5242;
-}
-
 .fas {
   font-size: 25px;
   padding-top: 16px;
+}
+
+.icons {
+  color: #ec5242;
 }
 
 article {
