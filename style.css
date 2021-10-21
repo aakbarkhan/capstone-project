@@ -72,6 +72,10 @@ ul {
   display: none;
 }
 
+.icons > .fas {
+  color: white;
+}
+
 @media screen and (min-width: 768px) {
   .nav {
     display: flex;
@@ -630,6 +634,7 @@ b {
     font-size: 4vw;
     flex: 1;
     padding: 0 25%;
+    color: white;
   }
 
   .heading {
