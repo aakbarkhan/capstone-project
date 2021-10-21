@@ -17,7 +17,6 @@
 <body>
     <div>
         <header>
-
             <nav class="top">
                 <ul class="icons-top">
                     <li class="top-icons"><i class="fab fa-facebook-f"></i></li>
@@ -45,6 +44,10 @@
                     <li class="nav-link">News</li>
                     <li class="nav-link">GT Campaing</li>
                 </ul>
+                <button type="button" class ="hamburger"> 
+                    <i class="menuIcon fas fa-bars"> </i>
+                    <i class="closeIcon fas fa-times"></i>
+                </button>
             </nav>
         </header>
     <section class="welcome">
@@ -86,7 +89,7 @@
                 <a class="icons" href="">
                     <i class="fas fa-magnet"></i>
                 </a>
-                <h3 class="heading">Lead Generation</h3>
+                <h3 class="heading">Lead <br> Generation</h3>
                 <p>We welcome the people who are tackling the big challenges facing industry today.</p>
     
             </article>
@@ -104,12 +107,12 @@
                 </a>
                 <h3 class="heading">Workshop</h3>
                 <p>Try creting your own work using open source licence rather then just watching at it.</p>
-    
             </article>
-
-            
         </div>
         <p class="all-list">SEE THE WHOLE PROGRAME</p>
+        <button class="join">
+            Join CG Tech Summit 2021
+        </button >
     </section>
 
     <section class="presenters">
@@ -117,7 +120,9 @@
             <h3 class="speaker-title"> Featured Speakers</h3>
             <hr class="line">
         </div>
-        <div id="presenters-card"></div>
+        <div id="presenters-card">
+
+        </div>
         
     </section>
     
@@ -139,6 +144,7 @@
     
 </div>
 <script src="./script.js"></script>
+<script src="./menu.js"></script>
     
 </body>
 </html>
