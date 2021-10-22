@@ -1,23 +1,16 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: mobile version
+# Capstone Project: Global technology summit 2021
 
-> This project is Portfolio mobile version.
+> Global technology summit.
 
-![screenshot](./assets/mobile-portfolio.png)
+![screenshot](./deskCap.png)
 
-The toolbar contains logo and menu. The headline section is an introduction about the person.
+Desktop Page.
 
-![](./assets/galaxys5.png)
+![](./mobileCap.png)
 
-The above section is the contact form and the footer in the portfolio.
-This mobile version is tested on galaxy S5.
-
-![](./assets/desktop.png)
-
-![](./assets/email.png)
-
-The desktop version used media queries above 992px and below 992px in mobile. 
+Mobile page
 
 
 
@@ -26,11 +19,21 @@ The desktop version used media queries above 992px and below 992px in mobile.
 - Html&Css
 - Media queries
 - Linters
-- Animation and transition.
+- JavaScript
 ## Live Demo
 
 The live page is:
-[Live Link](https://aakbarkhan.github.io/Portfolio/)
+[Live Link](https://aakbarkhan.github.io/capstone-project/)
+
+## Getting Started
+
+- This is an example of how you may give instructions on setting up your project locally. Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.
+
+- To get a local copy up and running follow these simple example steps.
+
+## Install
+
+- In github, clone: https://github.com/aakbarkhan/capstone-project.git
 
 
 ## Authors
@@ -53,8 +56,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- My coding partners
-- Standup teams
+- Templated inspired by Cindy Shin https://www.behance.net/gallery/29845175/        CC-Global-Summit-2015.
+- Photo by Christopher Campbell on Unsplash
+- Standup teams, coding partners.
 
 
 ## 📝 License

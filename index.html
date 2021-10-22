@@ -11,64 +11,132 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
-    <link rel="shortcut icon" id="logo" type="image/x-icon" href="./logoSummit.png" />
+    <link rel="shortcut icon" id="logo" type="image/x-icon" href="./assets/logoSummit.png" />
     <title>Creative Global Technology Summit 2021</title>
 </head>
 <body>
     <div>
-    <nav class="top">
-        <ul class="icons-top">
-            <li class="top-icons"><i class="fab fa-facebook-f"></i></li>
-            <li class="top-icons"><i class="fab fa-twitter"></i></li>
-            <li class="top-icons">English</li>
-            <li class="top-icons">MyPage</li>
-            <li class="top-icons">Logout</li>
-        </ul>
-    </nav>
-    <nav class="nav-links">
-        <div >
-            <a  class="logo" href="">
-                <img src="./logoSummit.png" alt="">
-            </a>
-        </div>
-        <ul class="nav">
-            <li class="nav-link">About</li>
-            <li class="nav-link">Program</li>
-            <li class="nav-link">Join</li>
-            <li class="nav-link">Sponsor</li>
-            <li class="nav-link">News</li>
-            <li class="nav-link">GT Campaing</li>
-        </ul>
-    </nav>
+        <header>
+            <nav class="top">
+                <ul class="icons-top">
+                    <li class="top-icons"><i class="fab fa-facebook-f"></i></li>
+                    <li class="top-icons"><i class="fab fa-twitter"></i></li>
+                    <li class="top-icons">English</li>
+                    <li class="top-icons">MyPage</li>
+                    <li class="top-icons">Logout</li>
+                </ul>
+            </nav>
+            <nav class="nav-links">
+                <div >
+                    <a  class="logo" href="">
+                        <img src="./assets/logoSummit.png" alt="logo">
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li class="nav-link">
+                       <a href="about.html">
+                        About
+                       </a> 
+                    </li>
+                    <li class="nav-link">
+                       <a href="#main-heading">Program</a> </li>
+                    <li class="nav-link">
+                    <a href="#presenters">Join </a>    
+                    </li>
+                    <li class="nav-link">
+                       <a href="#sponsor">Sponsor </a> </li>
+                    <li class="nav-link">News</li>
+                    <li class="nav-link">GT Campaing</li>
+                </ul>
+                <button type="button" class ="hamburger"> 
+                    <i class="menuIcon fas fa-bars"> </i>
+                    <i class="closeIcon fas fa-times"></i>
+                </button>
+            </nav>
+        </header>
     <section class="welcome">
         <div class="welcome-container">
             <h2 class="hero">"Hello! Sharing world"</h2>
-            <h1 class="summit">Creative Global <br> Technology Summit <br> 2015</h1>
+            <h1 class="summit">Creative Global <br> Technology Summit <br> 2021</h1>
             <p class="discription">The joyful celebration believing in the value of openess and sharing, creating <br> a positive change with people from over 80 ocuntries in taking place in October, in India.</p>
-
         </div>
         <div class="place-date">            
             <p class="date">2021.10.30(SAT) ~ 31(SUN)</p>
             <p class="place">@ National Museum of India, Art center Delhi and more</p>
         </div>
-
     </section>
     <section class="main">
-        <div>
+        <div id="main-heading" class="main-heading">
             <h2>Main Program</h2>
+            <hr class="line">
         </div>
-        <article>
-            <a href="">
-                <img src="https://img.icons8.com/ios/50/000000/podium-with-speaker.png" alt="lecture" />
-            </a>
-            <h3>Lecture</h3>
-            <p>Listen to the speakers for various countries about the messages  of sharing and opening.</p>
-
-
-        </article>
-
+        <div  class="card">
+            <article>
+                <a class="icons" href="">
+                    <i class="fas fa-users"></i>
+                </a>
+                <h3 class="heading">Groups</h3>
+                <p class="article-disc">Listen to the speakers for various countries about the messages  of sharing and opening.</p>
+            </article>
+            <article>
+                <a class="icons" href="">
+                    <i class="fas fa-network-wired"></i>
+                </a>
+                <h3 class="heading">Networking</h3>
+                <p class="article-disc">Brings together the people and companies redifining the global tech industry.</p>
+            </article>
+            <article>
+                <a class="icons" href="">
+                    <i class="fas fa-magnet"></i>
+                </a>
+                <h3 class="heading">Lead's </h3>
+                <p class="article-disc">We welcome the people who are tackling the big challenges facing industry today.</p>
+            </article>
+            <article>
+                <a class="icons" href="">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </a>
+                <h3 class="heading">Development</h3>
+                <p class="article-disc">“attracts a diverse list of world-class speakers and facilitates content that inspires and empowers attendees.</p>
+            </article>
+            <article>
+                <a class="icons" href="">
+                    <i class="fas fa-laptop-house"></i>
+                </a>
+                <h3 class="heading">Workshop</h3>
+                <p class="article-disc">Try creting your own work using open source licence rather then just watching at it.</p>
+            </article>
+        </div>
+        <p class="all-list">SEE THE WHOLE PROGRAME</p>
+        <button type="button" class="join">
+            Join CG Tech Summit 2021
+        </button >
     </section>
+    <section id="presenters" class="presenters">
+        <div class="speaker-heading">
+            <h3 class="speaker-title"> Featured Speakers</h3>
+            <hr class="line">
+        </div>
+        <div id="presenters-card">
+        </div>
+    </section>
+    <div id="sponsor" class="partner">
+        <h3 class="partner-title">Partner</h3>
+        <hr class="line last">
+        <ul class="partner-list">
+            <li class="list-items first">mozilla</li>
+            <li class="list-items second">Google</li>
+            <li class="list-items third">NAVER</li>
+            <li class="list-items fourth">daumkakao</li>
+            <li class="list-items fifth"><i class="fab fa-airbnb"></i>airbnb</li>
+        </ul>
+    </div>
+    <footer>
+        <img class="footer-img" src="./assets/logoSummit.png" alt="logo">
+        <p class="footer-note">2021 Creative Global Technology India. Some Rights Reserved.</p>
+    </footer>
 </div>
-    
+<script src="./script.js"></script>
+<script src="./menu.js"></script>
 </body>
 </html>
