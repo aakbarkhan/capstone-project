@@ -173,7 +173,7 @@ li > a:hover {
 }
 
 .main {
-  background-image: url(./pattern.svg);
+  background-image: url(./assets/pattern.svg);
   background-size: auto;
   padding: 5% 0;
 }
@@ -263,7 +263,7 @@ article:hover {
 .speaker-card {
   display: flex;
   gap: 7%;
-  background-image: url(./square.png);
+  background-image: url(./assets/square.png);
   background-repeat: no-repeat;
   background-size: 61px 61px;
   margin-bottom: 8%;

@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone Project: Global technoology summit 2021
+# Capstone Project: Global technology summit 2021
 
 > Global technology summit.
 
