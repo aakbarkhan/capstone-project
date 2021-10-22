@@ -86,7 +86,7 @@ ul {
     display: flex;
   }
 
-  .hero {
+  #hero {
     display: none;
   }
 }
@@ -486,7 +486,7 @@ b {
     display: none;
   }
 
-  .hero {
+  #hero {
     color: #ec5242;
     text-align: center;
     font-size: 5vw;
