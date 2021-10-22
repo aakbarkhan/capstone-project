@@ -1,22 +1,5 @@
 {
-  "name": "capstone-project",
-  "version": "1.0.0",
-  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
-  "main": "menu.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aakbarkhan/capstone-project.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aakbarkhan/capstone-project/issues"
-  },
-  "homepage": "https://github.com/aakbarkhan/capstone-project#readme",
-  "dependencies": {
-    "lodash": "^4.17.21"
+  "devDependencies": {
+    "hint": "^6.1.6"
   }
 }
