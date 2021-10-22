@@ -1,4 +1,5 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
+@import url('http://fonts.cdnfonts.com/css/lato');
 
 body {
   width: auto;
@@ -128,8 +129,8 @@ li > a:hover {
 .hero {
   font-size: 30px;
   font-weight: 100;
-  font-family: 'Lato', sans-serif;
   margin: 0;
+  font-family: sans-serif;
 }
 
 .summit {
@@ -201,6 +202,7 @@ li > a:hover {
 
 .heading {
   color: #ec5242;
+  font-family: sans-serif;
 }
 
 .icons {
@@ -213,6 +215,12 @@ article {
   opacity: 0.8;
   color: white;
   text-align: center;
+}
+
+.article-disc {
+  font-family: 'Lato', sans-serif;
+  padding: 0 19px;
+  font-size: 15px;
 }
 
 article:hover {
@@ -245,7 +253,13 @@ article:hover {
 .post,
 .partner {
   color: #3c3e47;
-  font-family: 'Lato', sans-serif;
+  font-family: sans-serif;
+}
+
+.post {
+  font-style: italic;
+  color: #ec5242;
+  margin: 0;
 }
 
 .all-list:hover {
@@ -291,13 +305,12 @@ article:hover {
   margin: 0;
 }
 
-.post {
-  color: #ec5242;
-  margin: 0;
+.info {
+  color: #272a31;
 }
 
 .line-hr {
-  border: 1px solid #3c3e47;
+  border: 1px solid #ec5242;
   width: 10px;
   text-align: left;
   margin-left: 0;
@@ -490,6 +503,8 @@ b {
     color: #ec5242;
     text-align: center;
     font-size: 5vw;
+    margin: 0;
+    font-family: sans-serif;
   }
 
   .about-disc {
