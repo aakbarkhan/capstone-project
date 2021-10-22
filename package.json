@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aakbarkhan/capstone-project/issues"
   },
-  "homepage": "https://github.com/aakbarkhan/capstone-project#readme"
+  "homepage": "https://github.com/aakbarkhan/capstone-project#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
