@@ -507,6 +507,10 @@ b {
     font-family: sans-serif;
   }
 
+  .hero {
+    font-size: 18px;
+  }
+
   .about-disc {
     display: none;
   }
